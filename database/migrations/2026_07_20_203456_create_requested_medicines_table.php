@@ -19,6 +19,7 @@ return new class extends Migration
     $table->integer('quantity_requested')->default(1);
     $table->string('status', 50)->default('قيد الانتظار'); // (قيد الانتظار, تمت الموافقة وتوفيره, مرفوض)
     $table->timestamps();
+    
         });
     }
 

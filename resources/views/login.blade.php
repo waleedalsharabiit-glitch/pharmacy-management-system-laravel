@@ -72,7 +72,9 @@
 
                 <button type="submit" class="btn-submit">تسجيل الدخول</button>
             </form>
-
+ <div class="footer-text">
+                ليس لديك حساب؟ <a href="{{ route('register') }}">أنشئ حسابك الآن</a>
+            </div>
             <div class="footer-text">
             </div>
         </div>
